@@ -27,9 +27,7 @@ export default {
     chunkFileNames: path.join('chunks', '[name]-[hash].js'),
   },
   plugins: [
-    typescript({
-      target: 'es2016',
-    }),
+    typescript(),
     postcss({
       extract: path.resolve('dist/content/index.css'),
       modules: true,

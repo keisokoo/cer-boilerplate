@@ -11,7 +11,6 @@
   "content_scripts": [
     {
       "js": ["content/index.js"],
-      "css": ["content/index.css"],
       "matches": ["https://*/*", "http://*/*"]
     }
   ],

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const App = (): JSX.Element => {
+const App = () => {
   return (
     <div>
       <h1>Option Page</h1>
